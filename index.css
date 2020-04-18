@@ -22,7 +22,7 @@ text-align:center;
     background-color: rgb(113, 180, 202);
     margin: 2% auto 0;
     padding: 5%;
-    width: 400px;
+    width: 500px;
     border-radius: 25px 25px 25px 25px;
 }
 input[type=text], select, textarea {
