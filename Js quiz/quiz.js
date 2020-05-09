@@ -20,32 +20,32 @@ let finalScore = 0;
 
 let quizQuestions = [
     {
-        question: "Which of the following is not a HTML5 tag?" ,
-        options: ["keygen" , "meter" ,  "output" , "legend"] ,
-        correctAnswer: 3
-    } ,
-
-    {
-        question: "Which of the following is not a CSS property?" ,
-        options: ["font-stretch" , "text-size" , "font-variant" ,  "text-overflow" ] ,
-        correctAnswer: 1
-    } ,
-
-    {
-        question: "What is the full name of Xylux?" ,
-        options: ["Seyi Ogunde" , "Baba Isale Awon Boys" ,  "Seyi Onifade" , "Seyi Xylux" ] ,
-        correctAnswer: 2
-    } ,
-
-    {
-        question: "What is the URL of HNG Internship?" ,
-        options: [  "hng.tech" ,'hotels.ng' , "hng.com" ,  "hng.io" ] ,
+        question: "Mr mark Essien got married at what age according to start ng post?" ,
+        options: ["Thirty-six" , "Forty" ,  "Twenty-eight" , "Thirty"] ,
         correctAnswer: 0
     } ,
 
     {
-        question: "What is the URL of StartNG Internship?" ,
-        options: ["startng.tech" , "startng.com" , "start.ng" ,  "startng.io" ] ,
+        question: "What is the full name of xyluz?" ,
+        options: ["omotayo seedik" , "seyi onifade" , "otedola seyi" ,  "xyluz essien" ] ,
+        correctAnswer: 1
+    } ,
+
+    {
+        question: "one of the following is the CEO of hotels.ng?" ,
+        options: ["Seyi Ogunde" , "Akintunde Sultan" ,  "Mark Essien" , "Seyi Xylux" ] ,
+        correctAnswer: 2
+    } ,
+
+    {
+        question: "Start.ng ends at what stage?" ,
+        options: [  "No ending" ,'project-stage' , "stage-5" ,  "stage-10" ] ,
+        correctAnswer: 3
+    } ,
+
+    {
+        question: "software project is never a completed project?" ,
+        options: ["No" , "strongly-disagreed" , "Yes" ,  "I can't say" ] ,
         correctAnswer: 2
     }
 ]
@@ -138,7 +138,7 @@ function enableOptions() {
 
 function validate() {
     if(!options[0].classList.contains("disabled")){
-        alert("Kindly select an option to proceed!");
+        alert("you must select an option to proceed!");
     } else {
         shuffleQuestion();
     }
